@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsivity.css">
+    <title>Formulário de cadastro</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="leftSide">
+            <img class="imgDevelopment" src="./assets/img/undraw_development_re_g5hq.svg" alt="development">
+        </div>
+
+        <div class="rightSide">
+            <h1>Faça o seu cadastro</h1>
+
+            <div class="input-box">
+                <input id="fName" class="inputs" type="text" required>
+                <label for="fName">Nome</label>
+            </div>
+
+            <div class="input-box">
+                <input required id="lName" class="inputs" type="text">
+                <label for="lName">Sobrenome</label>
+            </div>
+
+            <div class="input-box">
+                <input required id="phone" class="inputs" type="tel">
+                <label for="phone">Telefone</label>
+            </div>
+
+            <div class="input-box">
+                <input required id="email" class="inputs" type="email">
+                <label for="email">Email</label>
+            </div>
+
+            <div class="input-box">
+                <input required id="password" class="inputs" type="password">
+                <label for="password">Senha</label>
+            </div>
+
+            <div class="input-box">
+                <input required id="confPassword" class="inputs" type="password">
+                <label for="confPassword">Confirmar Senha</label>
+            </div>
+
+
+            <div class="gender-container">
+                <div class="gender-title">Gênero</div>
+                <div class="gender-group">
+
+                    <div class="gender-input">
+                        <input id="male" type="radio" name="gender" checked>
+                        <label for="male">Masculino</label>
+                    </div>
+
+                    <div class="gender-input">
+                        <input id="female" type="radio" name="gender">
+                        <label for="female">feminino</label>
+                    </div>
+
+                    <div class="gender-input">
+                        <input id="other" type="radio" name="gender">
+                        <label for="other">Outros</label>
+                    </div>
+
+                    <div class="gender-input">
+                        <input id="none" type="radio" name="gender">
+                        <label for="none">Prefiro não dizer</label>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <input class="button" aria-haspopup="true" type="button" value="Cadastre-se">
+
+
+        </div>
+
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
